@@ -11,6 +11,10 @@ import PGFramework
 
 // MARK: - Property
 class TopViewController: BaseViewController {
+    @IBAction func tapButton(_ sender: UIButton) {
+        let nextView: NextViewController = NextViewController()
+        transitionViewController(from: self, to: nextView)
+    }
     
 }
 
