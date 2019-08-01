@@ -1,5 +1,5 @@
 //
-//  TopViewController.swift
+//  NextViewController.swift
 //  Testgit
 //
 //  Created by 生沼佑樹 on 2019/08/01.
@@ -10,24 +10,22 @@ import UIKit
 import PGFramework
 
 // MARK: - Property
-class TopViewController: BaseViewController {
+class NextViewController: BaseViewController {
     
 }
 
 // MARK: - Life cycle
-extension TopViewController {
-    override func loadView() {
-        super.loadView()
-    }
+extension NextViewController {
+    
 }
 
 // MARK: - Protocol
-extension TopViewController {
+extension NextViewController {
     
 }
 
 // MARK: - method
-extension TopViewController {
+extension NextViewController {
     
 }
 

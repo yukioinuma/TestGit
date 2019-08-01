@@ -16,6 +16,8 @@
 		29F3817C22F2B5EA009681B4 /* TestgitUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3817B22F2B5EA009681B4 /* TestgitUITests.swift */; };
 		29F3818B22F2B8AB009681B4 /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3818922F2B8AB009681B4 /* TopViewController.swift */; };
 		29F3818C22F2B8AB009681B4 /* TopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F3818A22F2B8AB009681B4 /* TopViewController.xib */; };
+		29F3818F22F2BD5B009681B4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29F3818D22F2BD5B009681B4 /* NextViewController.swift */; };
+		29F3819022F2BD5B009681B4 /* NextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 29F3818E22F2BD5B009681B4 /* NextViewController.xib */; };
 		65D185763F07DAE28F2E2063 /* Pods_TestgitUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F20A3AFC65BD19BE0D72FA17 /* Pods_TestgitUITests.framework */; };
 		9C536451BDABAD63D9BDD321 /* Pods_TestgitTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C733338EBE0A71981E409E1B /* Pods_TestgitTests.framework */; };
 		B97BD2A0AD48B64F5B0F7985 /* Pods_Testgit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 208A91F7F6520A62E204ED9D /* Pods_Testgit.framework */; };
@@ -56,6 +58,8 @@
 		29F3817D22F2B5EA009681B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		29F3818922F2B8AB009681B4 /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 		29F3818A22F2B8AB009681B4 /* TopViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TopViewController.xib; sourceTree = "<group>"; };
+		29F3818D22F2BD5B009681B4 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
+		29F3818E22F2BD5B009681B4 /* NextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NextViewController.xib; sourceTree = "<group>"; };
 		A62271B66986311A5CE80132 /* Pods-TestgitUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestgitUITests.release.xcconfig"; path = "Target Support Files/Pods-TestgitUITests/Pods-TestgitUITests.release.xcconfig"; sourceTree = "<group>"; };
 		A8F3AC19377A3175A058B00E /* Pods-TestgitTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestgitTests.release.xcconfig"; path = "Target Support Files/Pods-TestgitTests/Pods-TestgitTests.release.xcconfig"; sourceTree = "<group>"; };
 		C733338EBE0A71981E409E1B /* Pods_TestgitTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestgitTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,6 +130,8 @@
 				29F3816722F2B5E9009681B4 /* Info.plist */,
 				29F3818922F2B8AB009681B4 /* TopViewController.swift */,
 				29F3818A22F2B8AB009681B4 /* TopViewController.xib */,
+				29F3818D22F2BD5B009681B4 /* NextViewController.swift */,
+				29F3818E22F2BD5B009681B4 /* NextViewController.xib */,
 			);
 			path = Testgit;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 				29F3816622F2B5E9009681B4 /* LaunchScreen.storyboard in Resources */,
 				29F3816322F2B5E9009681B4 /* Assets.xcassets in Resources */,
 				29F3816122F2B5E6009681B4 /* Main.storyboard in Resources */,
+				29F3819022F2BD5B009681B4 /* NextViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +401,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				29F3818B22F2B8AB009681B4 /* TopViewController.swift in Sources */,
+				29F3818F22F2BD5B009681B4 /* NextViewController.swift in Sources */,
 				29F3815E22F2B5E6009681B4 /* ViewController.swift in Sources */,
 				29F3815C22F2B5E6009681B4 /* AppDelegate.swift in Sources */,
 			);
