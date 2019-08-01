@@ -16,7 +16,7 @@ class NextViewController: BaseViewController {
 
 // MARK: - Life cycle
 extension NextViewController {
-    
+    yguguguguygyuguguguigiguiuygyu
 }
 
 // MARK: - Protocol
